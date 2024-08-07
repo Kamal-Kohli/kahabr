@@ -42,3 +42,36 @@ nav ul li a {
     border-bottom: 2px solid var(--blue);
     font-weight: 500;
 }
+
+/* Footer */
+
+footer .container {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #212a31; 
+    height: 150px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+footer p {
+    margin: 0; 
+}
+
+.social-links {
+    margin-top: 0.5rem; 
+}
+
+.social-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+.social-links a:hover {
+    color: #cccccc; 
+}
