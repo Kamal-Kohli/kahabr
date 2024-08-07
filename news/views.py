@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .news_api import get_news
 
 # Create your views here.
 def home(request):
