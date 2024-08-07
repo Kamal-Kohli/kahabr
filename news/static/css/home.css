@@ -1,0 +1,44 @@
+body.custom-bg {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px; /* Ensure content is not hidden behind the fixed navbar */
+    background-color: #d3d9d4;
+}
+
+h1 {
+    padding-top: 2rem;
+    color: #124e66;
+}
+
+.navbar {
+    padding: 1rem;
+    background: #212a31;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background: #124e66;
+}
+
+.auth-links {
+    float: right;
+}
+
+.active {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 500;
+}
