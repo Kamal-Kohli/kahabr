@@ -2,8 +2,16 @@ body.custom-bg {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 70px; /* Ensure content is not hidden behind the fixed navbar */
+    padding-top: 70px; 
     background-color: #d3d9d4;
+}
+
+.custom-bg {
+    background-image: url('../images/bgimg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
 }
 
 h1 {
