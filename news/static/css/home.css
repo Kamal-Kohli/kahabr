@@ -203,6 +203,40 @@ nav ul li a {
     background-color: #212a31;
 }
 
+/* Register form */
+.login {
+    background-size: cover;
+    min-height: 85vh;
+    position: relative;
+    
+}
+
+.login1 {
+    color: #124e66;
+}
+
+.btn-signup {
+    padding: 5px 10px; 
+    font-size: 0.875rem; 
+    width: auto; 
+    background-color: #124e66; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-signup:hover {
+    background-color: #212a31;
+}
+
+.text-overlay {
+    z-index: 1;
+    color: #124e66;
+    background-color: rgba(211, 217, 212, 0.7);
+}
 
 /* Footer */
 
